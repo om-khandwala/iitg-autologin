@@ -116,7 +116,7 @@ function keepalive(result){
                 chrome.action.setIcon({path: "iconDisconnected.png"});
             })
         }
-    }, 600000);
+    }, 2000);
 }
 
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
